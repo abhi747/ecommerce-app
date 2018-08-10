@@ -1,0 +1,12 @@
+<div class="container my-5 bg-light">
+    <h5 class="text-center my-3"> Top Products</h5>
+    <div class="container my-5">
+        <div class="custrow">
+            <div *ngFor="let product of filteredTopProducts" class="items">
+                <img [src]="product.imageUrl">
+                <h6> {{product.product_name}} </h6>
+                <span> {{product.product_cost | currency}} </span>
+            </div>
+        </div>
+    </div>
+</div>

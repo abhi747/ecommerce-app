@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">The Ecommerce App</a>
+
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Fashion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Electronics</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home & Furniture</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Books</a>
+            </li>
+        </ul>
+        <form class="float-right">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" #searchKey (keyup)="filterProducts(searchKey.value)">
+        </form>
+    </nav>
+
+
+
+
