@@ -1,6 +1,7 @@
 # EcommerceApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+Run 'npm install' to install required node modules.
 
 ## Development server
 
